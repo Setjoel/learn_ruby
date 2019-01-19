@@ -45,7 +45,7 @@ describe "Simon says" do
     # Hint: *default values*
     it "should repeat a number of times" do
       expect(repeat("hello", 3)).to eq("hello hello hello")
-    end
+    end 
   end
 
   describe "start_of_word" do
@@ -91,6 +91,9 @@ describe "Simon says" do
     it "does capitalize 'little words' at the start of a title" do
       expect(titleize("the bridge over the river kwai")).to eq("The Bridge over the River Kwai")
     end
+
+   
+   
   end
 
 end
